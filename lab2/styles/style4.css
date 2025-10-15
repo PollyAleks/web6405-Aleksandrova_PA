@@ -1,0 +1,72 @@
+@font-face{
+    font-family: "Jost";
+    src: url("../fonts/Jost-Bold.woff2") format("woof2");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Jost";
+    src: url("../fonts/Jost-ExtraBold.woff2") format("woof2");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Jost";
+    src: url("../fonts/Jost-Regular.woff2") format("woof2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Jost";
+    src: url("../fonts/Jost-SemiBold.woff2") format("woof2");
+    font-weight: 600;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+h2{
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    margin-top: 0px;
+    color: #1B1B1D;
+    margin-bottom: 24px;
+    text-align: center;
+    align-items: center;
+    left: 100px;
+    top: 24px;
+}
+tr{
+    height: 80px;
+}
+th,td{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.68px;
+    text-align: center;
+}
+th{
+    background-color: #64646A;
+    color: #1B1B1D;
+}
+td{
+    color: #1B1B1D;
+}
+table{
+    margin: auto;
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    top:100px;
+}
+tbody tr:nth-child(2),
+tbody tr:nth-child(4){
+    background-color: #64646A;
+}
+thead th:nth-child(1),
+thead th:nth-child(2),
+thead th:nth-child(3),
+thead th:nth-child(4){
+    width: 20%;
+}
