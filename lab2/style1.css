@@ -1,0 +1,270 @@
+@font-face{
+    font-family: "Jost";
+    src: url("../fonts/Jost-Bold.woff2") format("woof2");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Jost";
+    src: url("../fonts/Jost-ExtraBold.woff2") format("woof2");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Jost";
+    src: url("../fonts/Jost-Regular.woff2") format("woof2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Jost";
+    src: url("../fonts/Jost-SemiBold.woff2") format("woof2");
+    font-weight: 600;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 800;
+    font-size: 124px;
+    line-height: 140px;
+    color: #1B1B1D;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2{
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #1B1B1D;
+}
+h3{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #1B1B1D;
+}
+h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #1B1B1D;
+}
+p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.68px;
+    color: #64646A;
+}
+body{
+    font-family: "Jost", "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.buttonn{
+    background: #FFFFFF;
+    border: 0px;
+    border-radius: 30px;
+    padding: 16px 16px;
+    box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+}
+.button{
+    background: #1B1B1D;
+    border-radius: 126px;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+button:hover{
+    background: #EEEFF1;
+    border: 1px;
+}
+a:hover{
+    color:black;
+}
+.rectangle{
+    position: relative;
+    width: 1490px;
+    left:0px;
+    right:0px;
+    top:0px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 1290px;
+    height: 56px;
+    left: 100px;
+    top: 24px;
+}
+nav > section{
+    display: flex;
+    margin-left: 800px;
+}
+nav > section > a{
+    padding: 17px 0px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1B1B1D;
+    text-decoration: none;
+}
+a ~ a{
+    margin-left: 40px;
+}
+.section1{
+    display: flex;
+    position: absolute;
+    width: 1290px;
+    height: 712px;
+    left: 100px;
+    top: 204px;
+}
+button + a{
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #1B1B1D;
+}
+h1 + p{
+    margin-top: 30px;
+}
+p + button{
+    margin-top: 60px;
+}
+.article11{
+    position: absolute;
+    width: 626px;
+    height: 650px;
+    left: 0px;
+    top: 0px;
+    bottom: 62px;
+}
+.article12{
+    position: absolute;
+    width: 680.25px;
+    height: 712px;
+    left: 610px;
+    top: 0px;
+}
+.img1{
+    position: absolute;
+    width: 272.1px;
+    height: 140px;
+    left: 42.76px;
+    top: 391px;
+}
+.img2{
+    position: absolute;
+    width: 139.94px;
+    height: 113px;
+    left: 507.27px;
+    top: 31px;
+}
+.img3{
+    position: absolute;
+    width: 508.28px;
+    height: 562.5px;
+    left: 129.91px;
+    top: 92px;
+}
+.section5{
+    position: absolute;
+    width: 1290px;
+    height: 400px;
+    left: 100px;
+    top: 1150px;
+}
+.section51{
+    display: flex;
+    position: absolute;
+    width: 1290px;
+    height: 340px;
+    left: 0px;
+    top: 0px;
+}
+.left5{
+    position: absolute;
+    width: 558px;
+    left: 0px;
+    top: 0px;
+}
+.right5{
+    position: absolute;
+    width: 413px;
+    left: 877px;
+    top: 0px;
+}
+.left5 > p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.right5 > h3{
+    margin-bottom: 30px;
+}
+.right5 > div > .buttonn{
+    margin-right: 24px;
+}
+.right5 > div > button{
+    margin-bottom: 30px;
+}
+.left5 > div > a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1B1B1D;
+}
+.right5 > div > a{
+    padding-left: 0px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    color: #64646A; 
+    text-transform: none;
+    text-decoration: none;  
+}
+.left5 > h3,
+.right5 > h3{
+    font-weight: 800;
+}
+footer{
+    display: flex;
+    position: absolute;
+    width: 1290px;
+    height: 30px;
+    left: 100px;
+    top: 1560px;
+}
+footer > p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+}
+footer > p ~ p{
+    position: absolute;
+    left: 1000px;
+}
+.line{
+    position: absolute;
+    width: 1290px;
+    height: 0px;
+    left: 100px;
+    top: 1520px;
+    opacity: 0.1;
+    border: 1px solid #1B1B1D;
+}
